@@ -1,3 +1,3 @@
-# Tutoriel SQL
+# Présentation du domaine Statistiques Industrielles
 
-[Gaëtan Varlet](https://github.com/gaetan-varlet)
+
