@@ -1,21 +1,20 @@
-# Les agents
+# présentation Générale
 
 ----
 
-## Convertion format date <--> format caractère
+## 15 Agents 
 
+### 9 Cadres A - 6 Cadre B
+### 1 agent sur le site de Caen jusqu'à Septembre 2018
+### 1 départ à la retraite courant 2018
 ### Format caractère --> Format date
-Utiliser la fonction `to_date()` qui convertit une variable caractère au format date en utilisant le format spécifié
-```sql
-select to_date('2015/12/11', 'yyyy/mm/dd') as date_convertie from dual;
-select to_date(date_anniversaire, 'yyyy/mm/dd') as date_convertie from maTable;
-```
-### Format date --> Format caractère et numérique
-Utiliser la fonction `to_char()` qui convertit une variable date au format caractère en utilisant le format spécifié. On peut ensuite utiliser la fonction `to_number()` pour convertir la chaîne de caractères au format numérique
-```sql
-select to_char(d_traitement, 'yyyymmdd hh24:mi:ss') from eap.questionnaire;
-select to_number(to_char(date_vente, 'yyyy')) as annee from maTable;
-```
+
+## 9 Aplications et 2 WebService
+### DESSIN : 5 applications et 2 WebService
+### PAPAYE
+### CRPI
+### OCTAVIE
+### ORIGAMI (passage de la maintenance à Nantes courant 2018)
 
 ----
 
